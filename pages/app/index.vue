@@ -7,7 +7,7 @@ definePageMeta({
 
 <template>
   <NuxtLayout name="app">
-    <div class="space-y-8 py-8">
+    <div class="space-y-8 py-8 mx-4">
 
       <FeedLobiCard />
       <FeedLobiCard />
