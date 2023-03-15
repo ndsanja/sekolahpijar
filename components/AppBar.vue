@@ -1,27 +1,23 @@
 <template>
-  <v-app-bar color="indigo-lighten-1" class="sticky top-0">
-    <template v-slot:image>
-      <v-img gradient="to top right, rgba(19,84,122,.8), rgba(128,208,199,.8)"></v-img>
-    </template>
-
+  <v-app-bar class="sticky top-0 elevation-0">
     <template v-slot:prepend>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </template>
 
-    <v-app-bar-title>Title</v-app-bar-title>
+    <v-app-bar-title>Pijar</v-app-bar-title>
 
     <v-spacer></v-spacer>
 
     <v-btn icon>
-      <v-icon>mdi-magnify</v-icon>
+      <v-icon>mdi-theme-light-dark</v-icon>
     </v-btn>
 
     <v-btn icon>
-      <v-icon>mdi-heart</v-icon>
+      <v-icon>mdi-bell-outline</v-icon>
     </v-btn>
 
     <v-btn icon>
-      <v-icon>mdi-dots-vertical</v-icon>
+      <v-icon>mdi-chat-outline</v-icon>
     </v-btn>
   </v-app-bar>
 </template>

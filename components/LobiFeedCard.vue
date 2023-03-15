@@ -20,7 +20,7 @@ export default {
 
         <template v-slot:append>
           <div class="justify-self-end">
-            <v-icon class="me-1" style="font-size: medium;" icon="mdi-heart"></v-icon>
+            <v-icon class="me-1" style="font-size: larger;" icon="mdi-dots-vertical"></v-icon>
           </div>
         </template>
       </v-list-item>
@@ -50,7 +50,7 @@ export default {
         <template v-slot:append>
           <div class="justify-self-end">
             <span class="subheading me-2" style="font-size: small;">120 Komentar</span>
-            <v-icon class="me-1" icon="mdi-heart" style="font-size: medium;"></v-icon>
+            <v-icon class="me-1" icon="mdi-chat-outline" style="font-size: medium;"></v-icon>
           </div>
         </template>
       </v-list-item>

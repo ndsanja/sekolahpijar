@@ -9,12 +9,8 @@ definePageMeta({
   <NuxtLayout name="app">
     <div class="space-y-8 py-8 mx-4">
 
-      <FeedLobiCard />
-      <FeedLobiCard />
-      <FeedLobiCard />
-      <FeedLobiCard />
-      <FeedLobiCard />
-      <FeedLobiCard />
+      <LobiFeedCard v-for="i in 20" :key="i" />
+
     </div>
   </NuxtLayout>
 </template>
