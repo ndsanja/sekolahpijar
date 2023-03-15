@@ -49,7 +49,7 @@ export default {
 
         <template v-slot:append>
           <div class="justify-self-end">
-            <span class="subheading me-2" style="font-size: small;">120 Komentar</span>
+            <span class="subheading me-2" style="font-size: small;">120</span>
             <v-icon class="me-1" icon="mdi-chat-outline" style="font-size: medium;"></v-icon>
           </div>
         </template>
