@@ -6,7 +6,7 @@ export default {
 }
 </script>
 <template>
-  <v-card class="mx-auto min-w-[250px] w full rounded-lg border">
+  <v-card class="mx-auto min-w-[250px] min-h-[250px] w full rounded-lg border">
     <v-card-actions>
       <v-list-item class="w-100">
         <template v-slot:prepend>
@@ -27,9 +27,9 @@ export default {
     </v-card-actions>
 
     <!-- <div class="mx-4 pt-2">
-        <div class="rounded-xl bg-indigo-500 aspect-video">
-        </div>
-      </div> -->
+                <div class="rounded-xl bg-indigo-500 aspect-video">
+                </div>
+              </div> -->
 
     <v-card-text class="text-p py-2 mx-4">
       "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well."
