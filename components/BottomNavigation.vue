@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <v-bottom-navigation v-model="value" color="teal" grow class="lg:!hidden" style="height: 50px;">
+  <v-bottom-navigation v-model="value" color="teal" grow class="md:!hidden" style="height: 50px;">
     <v-btn>
       <v-icon style="font-size: x-large;">mdi-home-outline</v-icon>
 
