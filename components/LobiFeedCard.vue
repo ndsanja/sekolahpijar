@@ -14,13 +14,13 @@ export default {
             image="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"></v-avatar>
         </template>
 
-        <v-list-item-title style="font-size: medium;">Nila Dwi Sanja</v-list-item-title>
+        <v-list-item-title class="!text-sm">Nila Dwi Sanja</v-list-item-title>
 
-        <v-list-item-subtitle style="font-size: x-small;">56 menit yang lalu</v-list-item-subtitle>
+        <v-list-item-subtitle class="!text-[10px]">56 menit yang lalu</v-list-item-subtitle>
 
         <template v-slot:append>
-          <div class="justify-self-end">
-            <v-icon class="me-1" style="font-size: larger;" icon="mdi-dots-vertical"></v-icon>
+          <div class="!self-end">
+            <v-icon class="!mr-1 !text-base" icon="mdi-dots-vertical"></v-icon>
           </div>
         </template>
       </v-list-item>
@@ -37,20 +37,20 @@ export default {
 
 
     <v-card-actions>
-      <v-list-item class="w-100" style="font-size: medium;">
+      <v-list-item class="w-100 !text-base">
         <template v-slot:prepend>
-          <v-icon class="me-1" style="font-size: medium;" icon=" mdi-heart"></v-icon>
-          <span class="subheading me-2" style="font-size: small;">256</span>
-          <span class="me-1" style="font-size: medium;">·</span>
-          <v-icon class="me-1" style="font-size: medium;" icon="mdi-share-variant"></v-icon>
-          <span class="subheading" style="font-size: small;">45</span>
+          <v-icon class=" !mr-1 !text-base" icon=" mdi-heart"></v-icon>
+          <span class="!mr-2 !text-xs">256</span>
+          <span class="!mr-1 !text-base">·</span>
+          <v-icon class=" !mr-1 !text-base" icon=" mdi-share-variant"></v-icon>
+          <span class="!text-xs">45</span>
         </template>
 
 
         <template v-slot:append>
-          <div class="justify-self-end">
-            <span class="subheading me-2" style="font-size: small;">120</span>
-            <v-icon class="me-1" icon="mdi-chat-outline" style="font-size: medium;"></v-icon>
+          <div class="!self-end">
+            <span class="!mr-2 !text-xs">120</span>
+            <v-icon class="!mr-1 !text-base" icon="mdi-chat-outline"></v-icon>
           </div>
         </template>
       </v-list-item>

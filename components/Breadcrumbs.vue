@@ -21,9 +21,9 @@ const items = ref([
 </script>
 
 <template>
-  <v-breadcrumbs :items="items" style="font-size: small;" class="!h-[20px]">
+  <v-breadcrumbs :items="items" class="!h-[20px] !text-xs">
     <template v-slot:prepend>
-      <v-icon size="small" icon="mdi-vuetify"></v-icon>
+      <v-icon size="medium" icon="mdi-vuetify"></v-icon>
     </template>
   </v-breadcrumbs>
 </template>

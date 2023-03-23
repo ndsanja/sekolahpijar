@@ -5,38 +5,38 @@ export default {
 </script>
 
 <template>
-  <v-bottom-navigation v-model="value" color="teal" grow class="md:!hidden" style="height: 50px;">
+  <v-bottom-navigation v-model="value" color="teal" grow class="md:!hidden !h-[50px]">
     <v-btn>
-      <v-icon style="font-size: x-large;">mdi-home-outline</v-icon>
+      <v-icon class="!text-2xl">mdi-home-outline</v-icon>
 
-      <span style="font-size: xx-small;">Lobi</span>
+      <span class="!text-[9px]">Lobi</span>
     </v-btn>
 
     <v-btn>
-      <v-icon style="font-size: x-large;">mdi-book-open-page-variant-outline</v-icon>
+      <v-icon class="!text-2xl">mdi-book-open-page-variant-outline</v-icon>
 
-      <span style="font-size: xx-small;">E-Learning</span>
-
-    </v-btn>
-
-    <v-btn>
-      <v-icon style="font-size: x-large;">mdi-monitor-edit</v-icon>
-
-      <span style="font-size: xx-small;">Studio</span>
+      <span class="!text-[9px]">E-Learning</span>
 
     </v-btn>
 
     <v-btn>
-      <v-icon style="font-size: x-large;">mdi-calendar-clock-outline</v-icon>
+      <v-icon class="!text-2xl">mdi-monitor-edit</v-icon>
 
-      <span style="font-size: xx-small;">Agenda</span>
+      <span class="!text-[9px]">Studio</span>
 
     </v-btn>
 
     <v-btn>
-      <v-icon style="font-size: x-large;">mdi-account-outline</v-icon>
+      <v-icon class="!text-2xl">mdi-calendar-clock-outline</v-icon>
 
-      <span style="font-size: xx-small;">Profile</span>
+      <span class="!text-[9px]">Agenda</span>
+
+    </v-btn>
+
+    <v-btn>
+      <v-icon class="!text-2xl">mdi-account-outline</v-icon>
+
+      <span class="!text-[9px]">Profile</span>
 
     </v-btn>
   </v-bottom-navigation>
